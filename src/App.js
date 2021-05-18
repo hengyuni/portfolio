@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Navbar from "./Components/Nav/Navbar";
+import Section from "./Components/Section/Section";
+import DummyText from "./DummyText";
+import About from './Components/About/About.js'
+import Projects from './Components/Projects/Projects.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar />
+        <Section
+          title="About"
+          subtitle={<About />}
+          dark={true}
+          id="about"
+        />
+        <Section
+          title="Projects"
+          subtitle={<Projects />}
+          dark={false}
+          id="projects"
+        />
+        <Section
+          title="Contact"
+          subtitle={<DummyText />}
+          dark={true}
+          id="contact"
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
