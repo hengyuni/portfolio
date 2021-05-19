@@ -3,14 +3,22 @@ import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 
-const logo = 'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v790-nunny-79.png?auto=&bg=transparent&con=3&cs=srgb&dpr=1&fm=png&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=698200e0ca0340ed2263aa8a1a48054f'
+// const [isMobile, setMobile] = useState(false)
+
 
 export default class Navbar extends Component {
+  // state = { clicked: false}
+
+  // handleClick = () => {
+  //   this.setState({ clicked: !this.state.clicked })
+  // }
+
   scrollToTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
+
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
@@ -58,6 +66,13 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
+          {/* <button className="mobile-menu-icon">
+            {isMobile ? (
+              <i className="fas fa-times"></i>
+            ) : (
+              <i className="fas fa-bars"></i>
+            )}
+          </button> */}
         </div>
       </nav>
     );

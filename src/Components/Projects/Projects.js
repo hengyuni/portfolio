@@ -5,7 +5,7 @@ function Projects() {
   return (
     //https://github.com/hengyuni/Hip_yelp_front/raw/main/src/Images/HomePageScreenShot.png
 
-    <div>
+    <div className={projectsStyle.wholeContainer}>
       <div className={projectsStyle.p1Container}>
         <h3 className={projectsStyle.title}>Pokedex</h3>
         <img
@@ -25,6 +25,7 @@ function Projects() {
           </p>
         </div>
       </div>
+      <hr className={projectsStyle.line}/>
       <div className={projectsStyle.p2Container}>
         <h3 className={projectsStyle.title}>Travlr</h3>
         <img

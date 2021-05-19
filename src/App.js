@@ -5,6 +5,7 @@ import Section from "./Components/Section/Section";
 import DummyText from "./DummyText";
 import About from './Components/About/About.js'
 import Projects from './Components/Projects/Projects.js'
+import Contact from './Components/Contact/Contact.js'
 
 class App extends Component {
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
         />
         <Section
           title="Contact"
-          subtitle={<DummyText />}
+          subtitle={<Contact />}
           dark={true}
           id="contact"
         />
