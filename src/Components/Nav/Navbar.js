@@ -1,17 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import logo from "../logo.svg";
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
-
-// const [isMobile, setMobile] = useState(false)
+import { Link, animateScroll as scroll } from "react-scroll";
+import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 
 export default class Navbar extends Component {
-	// state = { clicked: false}
-
-	// handleClick = () => {
-	//   this.setState({ clicked: !this.state.clicked })
-	// }
-
 	scrollToTop = () => {
 		scroll.scrollToTop();
 	};

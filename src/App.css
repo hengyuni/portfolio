@@ -1,6 +1,6 @@
 :root {
 	--off-white: #fafafa;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 }
 .nav {
 	background-color: var(--off-white);
@@ -62,7 +62,7 @@
 
 .section-content {
 	max-width: 800px;
-	height: 100%;
+	/* height: 100%; */
 	/* height: 100vh; */
 	margin: 0 auto;
 	padding: 40px;
