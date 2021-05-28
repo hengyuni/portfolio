@@ -180,6 +180,7 @@
 		max-height: 250px;
 		width: 100%;
 		background-color: var(--off-white);
+		box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.15);
 	}
 
 	.NavbarTest .rightSide #hidden a {

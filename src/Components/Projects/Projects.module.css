@@ -1,6 +1,10 @@
 .wholeContainer {
-	/* position: relative; */
-	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wholeContainer:after {
+	clear: both;
 }
 
 .p1Container {
