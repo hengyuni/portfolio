@@ -12,6 +12,7 @@ function NavbarTest() {
 		scroll.scrollToTop();
 	};
 
+	// Navbar
 	return (
 		<div className="NavbarTest" id="navbar">
 			<div className="leftSide">
