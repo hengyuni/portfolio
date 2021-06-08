@@ -11,12 +11,9 @@ function About() {
 				width="200px"
 			/>
 			<p className={aboutStyle.body}>
-				Hi, I'm Hengyu! My background in painting and cooking helps with
-				tackling problems and brings a willingness to work with a team. It
-				enables me to connect with others on a personal level and provide
-				top-notch teamwork. My previous experiences allow me to approach each
-				project with the ability to adapt, put the ingredients together and find
-				solutions to efficiently solve problems.
+				MERN-stack developer with background in traditional sign painting and
+				television production. A lover of music, books, skateboarding, and the
+				outdoors.
 			</p>
 		</div>
 	);
