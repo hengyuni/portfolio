@@ -88,7 +88,10 @@ function Projects() {
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
-						<a className={projectsStyle.link} href="https://github.com">
+						<a
+							className={projectsStyle.link}
+							href="https://bookmarksproject.netlify.app"
+						>
 							Bookmark'd
 						</a>
 					</p>
