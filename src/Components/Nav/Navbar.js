@@ -4,6 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import "../../App.css";
 import { MenuOutlined } from "@ant-design/icons";
+import { Link as RLink } from "react-router-dom";
 
 function Navbar() {
 	const [showLinks, setShowLinks] = useState(false);
@@ -56,7 +57,14 @@ function Navbar() {
 					>
 						Contact
 					</Link>
-					<a>Resume</a>
+					<a
+						href="https://slate.textile.io/ipfs/bafkreiaguk6iqs4y3jfdijtd5xg5ppnsmhpcot23n3q5hqpfswn3ntfwby"
+						target="_blank"
+					>
+						Resume
+					</a>
+					<RLink to="/">Home</RLink>
+					<RLink to="/art">Art</RLink>
 				</div>
 			</div>
 		</div>
