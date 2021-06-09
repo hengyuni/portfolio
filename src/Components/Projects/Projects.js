@@ -6,7 +6,7 @@ function Projects() {
 		//https://github.com/hengyuni/Hip_yelp_front/raw/main/src/Images/HomePageScreenShot.png
 
 		<div className={projectsStyle.wholeContainer}>
-			<div className={projectsStyle.p1Container}>
+			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Pokedex</h3>
 				<img
 					src="https://github.com/hengyuni/project-2/raw/master/Assets/mainScreenShot.png"
@@ -36,7 +36,7 @@ function Projects() {
 				</div>
 			</div>
 			<hr className={projectsStyle.line} />
-			<div className={projectsStyle.p2Container}>
+			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Travlr</h3>
 				<img
 					src="https://github.com/hengyuni/Hip_yelp_front/raw/main/src/Images/HomePageScreenShot.png"
@@ -77,7 +77,7 @@ function Projects() {
 					</p>
 				</div>
 			</div>
-			<div className={projectsStyle.p3Container}>
+			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Bookmark'd</h3>
 				<img
 					src="https://i.imgur.com/70fDEnL.png"

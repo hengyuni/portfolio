@@ -24,11 +24,6 @@
 	display: flex;
 }
 
-/* #navbar {
-	position: sticky;
-	z-index: 1000;
-} */
-
 .NavbarTest .leftSide {
 	flex: 50%;
 	display: flex;
