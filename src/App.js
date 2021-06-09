@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Nav/Navbar";
 import Section from "./Components/Section/Section";
-import NavbarTest from "./Components/NavbarTest";
 import About from "./Components/About/About.js";
 import Projects from "./Components/Projects/Projects.js";
 import Contact from "./Components/Contact/Contact.js";
@@ -11,8 +10,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<NavbarTest />
-				{/* <Navbar /> */}
+				<Navbar />
 				<Section
 					className="about"
 					title="About"
