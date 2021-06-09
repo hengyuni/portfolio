@@ -6,7 +6,7 @@ import About from "./Components/About/About.js";
 import Projects from "./Components/Projects/Projects.js";
 import Contact from "./Components/Contact/Contact.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Art from "./Components/Art";
+import Art from "./Components/Art/Art";
 
 class App extends Component {
 	render() {

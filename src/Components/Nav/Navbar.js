@@ -63,8 +63,10 @@ function Navbar() {
 					>
 						Resume
 					</a>
-					<RLink to="/">Home</RLink>
-					<RLink to="/art">Art</RLink>
+					{/* <RLink to="/">Home</RLink> */}
+					{/* <RLink target="_blank" to="/art">
+						Art
+					</RLink> */}
 				</div>
 			</div>
 		</div>
