@@ -1,34 +1,36 @@
 .aboutContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  height: 100%;
-  max-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+	/* max-height: 100vh; */
+	padding: 3rem;
 }
 
 .headerImg {
-  color: #fff;
-  height: 100%;
-  max-height: 500px;
-  width: 100%;
-  max-width: 400px;
-  border: 8px solid #fafafa;
-  /* padding: 5px; */
-  margin: 20px;
-  /* margin-top: 30px; */
-  box-shadow: 18px 16px 15px #222222;
+	color: #fff;
+	width: 100%;
+	max-width: 600px;
+	min-width: 400px;
+	border: 5px solid #fafafa;
+	/* padding: 5px; */
+	margin: 1rem;
+	margin-top: -3rem;
+	box-shadow: 18px 16px 15px #222222;
 }
 
 .body {
-  width: 100%;
-  max-width: 400px;
-  /* height: 100%;
+	width: 100%;
+	max-width: 600px;
+	min-width: 400px;
+	/* height: 100%;
   max-height: 500px; */
-  padding: 20px;
-  margin: 30px;
-  color: #333;
-  background-color: #fafafa;
-  box-shadow: 18px 16px 15px #222222;
+	padding: 1rem;
+	margin: 1rem;
+	margin-bottom: -3rem;
+	color: #333;
+	background-color: #fafafa;
+	box-shadow: 18px 16px 15px #222222;
 }
