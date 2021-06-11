@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "../../Styles/ArtPage.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Art() {
 	const [pic, setPic] = useState({});
@@ -46,8 +48,13 @@ function Art() {
 				: pic.user.library.map((image, id) => {
 						return (
 							<div className="items">
-								<img
+								<LazyLoadImage
+									effect="blur"
+									delayTime="1550ms"
+									height="100%"
+									width="100%"
 									className="item"
+									alt={image.filename}
 									src={`
 								https://slate.textile.io/ipfs/${image.cid}`}
 								/>
