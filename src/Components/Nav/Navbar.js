@@ -57,10 +57,7 @@ function Navbar() {
 					>
 						Contact
 					</Link>
-					<a
-						href="https://slate.textile.io/ipfs/bafkreiaguk6iqs4y3jfdijtd5xg5ppnsmhpcot23n3q5hqpfswn3ntfwby"
-						target="_blank"
-					>
+					<a href="./CodingResume.pdf" target="_blank">
 						Resume
 					</a>
 					{/* <RLink to="/">Home</RLink> */}
