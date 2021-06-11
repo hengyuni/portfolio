@@ -8,7 +8,6 @@ function About() {
 				src="https://i.imgur.com/T4kI92O.jpg"
 				alt="headshot"
 				className={aboutStyle.headerImg}
-				width="200px"
 			/>
 			<p className={aboutStyle.body}>
 				MERN-stack developer with background in traditional sign painting and
