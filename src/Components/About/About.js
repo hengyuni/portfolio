@@ -11,7 +11,7 @@ function About() {
 			/>
 			<p className={aboutStyle.body}>
 				MERN-stack developer with background in traditional sign painting and
-				television production. A lover of music, books, skateboarding, and the
+				television production. A lover of music, reading, skateboarding, and the
 				outdoors.
 			</p>
 		</div>
