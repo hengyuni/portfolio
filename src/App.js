@@ -14,7 +14,6 @@ function App() {
 			<Navbar />
 			<Switch>
 				<Route path="/art" component={Art} />
-				<Route path="/test" component={Test} />
 				<Route exact path="/">
 					<Section
 						className="about"
