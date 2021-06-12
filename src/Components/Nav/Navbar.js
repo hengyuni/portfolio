@@ -27,6 +27,7 @@ function Navbar() {
 					onClick={() => setShowLinks(!showLinks)}
 				/>
 				<div className="links" id={showLinks ? "hidden" : ""}>
+					<Link to={"/"}>Home</Link>
 					<SLink
 						activeClass="active"
 						to="about"
@@ -62,9 +63,6 @@ function Navbar() {
 					</a>
 					{/* <RLink to="/">Home</RLink> */}
 					<Link to={"/art"}>Art</Link>
-					<Link target="_blank" to={"/test"}>
-						Test
-					</Link>
 				</div>
 			</div>
 		</div>
