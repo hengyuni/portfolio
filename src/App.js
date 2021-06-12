@@ -7,7 +7,6 @@ import Projects from "./Components/Projects/Projects.js";
 import Contact from "./Components/Contact/Contact.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Art from "./Components/Art/Art";
-const apiKey = process.env.REACT_APP_SLATE_KEY;
 
 function App() {
 	return (

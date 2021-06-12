@@ -3,6 +3,8 @@ import "../../Styles/ArtPage.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
+const apiKey = process.env.REACT_APP_SLATE_KEY;
+
 function Art() {
 	const [pic, setPic] = useState({});
 
