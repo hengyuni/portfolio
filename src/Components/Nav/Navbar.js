@@ -61,9 +61,7 @@ function Navbar() {
 						Resume
 					</a>
 					{/* <RLink to="/">Home</RLink> */}
-					<Link target="_blank" to={"/art"}>
-						Art
-					</Link>
+					<Link to={"/art"}>Art</Link>
 					<Link target="_blank" to={"/test"}>
 						Test
 					</Link>
