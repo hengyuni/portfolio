@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 // import logo from "../logo.svg";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as SLink, animateScroll as scroll } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import "../../App.css";
 import { MenuOutlined } from "@ant-design/icons";
-import { Link as RLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 	const [showLinks, setShowLinks] = useState(false);
@@ -27,7 +27,7 @@ function Navbar() {
 					onClick={() => setShowLinks(!showLinks)}
 				/>
 				<div className="links" id={showLinks ? "hidden" : ""}>
-					<Link
+					<SLink
 						activeClass="active"
 						to="about"
 						spy={true}
@@ -36,8 +36,8 @@ function Navbar() {
 						duration={500}
 					>
 						About
-					</Link>
-					<Link
+					</SLink>
+					<SLink
 						activeClass="active"
 						to="projects"
 						spy={true}
@@ -46,8 +46,8 @@ function Navbar() {
 						duration={500}
 					>
 						Projects
-					</Link>
-					<Link
+					</SLink>
+					<SLink
 						activeClass="active"
 						to="contact"
 						spy={true}
@@ -56,17 +56,17 @@ function Navbar() {
 						duration={500}
 					>
 						Contact
-					</Link>
+					</SLink>
 					<a href="./CodingResume.pdf" target="_blank">
 						Resume
 					</a>
 					{/* <RLink to="/">Home</RLink> */}
-					<RLink target="_blank" to={"/art"}>
+					<Link target="_blank" to={"/art"}>
 						Art
-					</RLink>
-					<RLink target="_blank" to={"/test"}>
+					</Link>
+					<Link target="_blank" to={"/test"}>
 						Test
-					</RLink>
+					</Link>
 				</div>
 			</div>
 		</div>
