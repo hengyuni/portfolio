@@ -41,27 +41,42 @@ function Art() {
 		getPics();
 	}, []);
 
+	const [modal, setModal] = useState(false);
+	const [tempSrc, setTempSrc] = useState("");
+
+	const getImg = (imgSrc) => {
+		setTempSrc(imgSrc);
+		setModal(true);
+		console.log(imgSrc);
+	};
+
 	return (
-		<div className="grid">
-			{pic.user === undefined
-				? null
-				: pic.user.library.map((image, id) => {
-						return (
-							<div className="items">
-								<LazyLoadImage
-									effect="blur"
-									delayTime="1550ms"
-									height="100%"
-									width="100%"
-									className="item"
-									alt={image.filename}
-									src={`
-								https://slate.textile.io/ipfs/${image.cid}`}
-								/>
-							</div>
-						);
-				  })}
-		</div>
+		<>
+			<div className={modal ? "modal open" : "modal"}>
+				<img src={tempSrc} alt="" onClick={() => setModal(false)} />
+			</div>
+			<div className="grid">
+				{pic.user === undefined
+					? null
+					: pic.user.library.map((image, id) => {
+							let imgSrc = `https://slate.textile.io/ipfs/${image.cid}`;
+							return (
+								<div className="items" onClick={() => getImg(imgSrc)}>
+									<LazyLoadImage
+										effect="blur"
+										delayTime="1550ms"
+										height="100%"
+										width="100%"
+										className="item"
+										alt={image.filename}
+										src={imgSrc}
+										onClick={() => getImg(imgSrc)}
+									/>
+								</div>
+							);
+					  })}
+			</div>
+		</>
 	);
 }
 
