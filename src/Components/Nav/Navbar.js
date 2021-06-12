@@ -27,7 +27,9 @@ function Navbar() {
 					onClick={() => setShowLinks(!showLinks)}
 				/>
 				<div className="links" id={showLinks ? "hidden" : ""}>
-					<Link to={"/"}>Home</Link>
+					<Link to={"/"} onClick={() => setShowLinks(!showLinks)}>
+						Home
+					</Link>
 					<SLink
 						activeClass="active"
 						to="about"
@@ -58,8 +60,9 @@ function Navbar() {
 					>
 						Contact
 					</SLink>
-					{/* <RLink to="/">Home</RLink> */}
-					<Link to={"/art"}>Art</Link>
+					<Link to={"/art"} onClick={() => setShowLinks(!showLinks)}>
+						Art
+					</Link>
 					<a href="./CodingResume.pdf" target="_blank">
 						Resume
 					</a>
