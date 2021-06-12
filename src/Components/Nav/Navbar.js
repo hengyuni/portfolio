@@ -64,6 +64,9 @@ function Navbar() {
 					<RLink target="_blank" to={"/art"}>
 						Art
 					</RLink>
+					<RLink target="_blank" to={"/test"}>
+						Test
+					</RLink>
 				</div>
 			</div>
 		</div>
