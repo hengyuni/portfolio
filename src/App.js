@@ -10,35 +10,33 @@ import Art from "./Components/Art/Art";
 
 function App() {
 	return (
-		<Router>
-			<div className="App">
-				<Navbar />
-				<Switch>
-					<Route exact path="/">
-						<Section
-							className="about"
-							title="About"
-							subtitle={<About />}
-							dark={true}
-							id="about"
-						/>
-						<Section
-							title="Projects"
-							subtitle={<Projects />}
-							dark={false}
-							id="projects"
-						/>
-						<Section
-							title="Contact"
-							subtitle={<Contact />}
-							dark={true}
-							id="contact"
-						/>
-					</Route>
-					<Route exact path="/art" component={Art} />
-				</Switch>
-			</div>
-		</Router>
+		<div className="App">
+			<Navbar />
+			<Switch>
+				<Route exact path="/">
+					<Section
+						className="about"
+						title="About"
+						subtitle={<About />}
+						dark={true}
+						id="about"
+					/>
+					<Section
+						title="Projects"
+						subtitle={<Projects />}
+						dark={false}
+						id="projects"
+					/>
+					<Section
+						title="Contact"
+						subtitle={<Contact />}
+						dark={true}
+						id="contact"
+					/>
+				</Route>
+				<Route exact path="/art" component={Art} />
+			</Switch>
+		</div>
 	);
 }
 
