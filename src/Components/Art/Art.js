@@ -54,7 +54,10 @@ function Art() {
 
 	return (
 		<>
-			<div className={modal ? "modal open" : "modal"}>
+			<div
+				className={modal ? "modal open" : "modal"}
+				onClick={() => setModal(false)}
+			>
 				<img src={tempSrc} alt="" onClick={() => setModal(false)} />
 			</div>
 			<div className="grid">
