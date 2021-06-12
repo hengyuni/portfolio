@@ -66,7 +66,7 @@ function Art() {
 								<div className="items" onClick={() => getImg(imgSrc)}>
 									<LazyLoadImage
 										effect="blur"
-										delayTime="1550ms"
+										delayTime="1000ms"
 										height="100%"
 										width="100%"
 										className="item"

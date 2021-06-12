@@ -58,11 +58,11 @@ function Navbar() {
 					>
 						Contact
 					</SLink>
+					{/* <RLink to="/">Home</RLink> */}
+					<Link to={"/art"}>Art</Link>
 					<a href="./CodingResume.pdf" target="_blank">
 						Resume
 					</a>
-					{/* <RLink to="/">Home</RLink> */}
-					<Link to={"/art"}>Art</Link>
 				</div>
 			</div>
 		</div>
