@@ -13,6 +13,7 @@ function App() {
 		<div className="App">
 			<Navbar />
 			<Switch>
+				<Route path="/art" component={Art} />
 				<Route exact path="/">
 					<Section
 						className="about"
@@ -34,7 +35,6 @@ function App() {
 						id="contact"
 					/>
 				</Route>
-				<Route exact path="/art" component={Art} />
 			</Switch>
 		</div>
 	);
