@@ -3,7 +3,12 @@ import React, { useState } from "react";
 import { Link as SLink, animateScroll as scroll } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import "../../App.css";
-import { MenuOutlined } from "@ant-design/icons";
+import {
+	MenuOutlined,
+	GithubOutlined,
+	LinkedinOutlined,
+	FormatPainterOutlined,
+} from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -15,11 +20,34 @@ function Navbar() {
 
 	// Navbar
 	return (
-		<div className="NavbarTest" id="navbar">
+		<div className="NavbarTest" id="navbar" onClick={scrollToTop}>
 			<div className="leftSide">
-				<h3 className="logo" onClick={scrollToTop}>
-					Hengyu Ni
-				</h3>
+				<div className="iconsContainer">
+					<a
+						href="https://github.com/hengyuni/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<GithubOutlined className="icon" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/hengyuni/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<LinkedinOutlined className="icon" />
+					</a>
+					<Link to={"/art"}>
+						<FormatPainterOutlined className="icon" />
+					</Link>
+				</div>
+			</div>
+			<div className="middle">
+				<Link to={"/"}>
+					<h3 className="logo" onClick={scrollToTop}>
+						Hengyu Ni
+					</h3>
+				</Link>
 			</div>
 			<div className="rightSide">
 				<MenuOutlined
@@ -27,9 +55,6 @@ function Navbar() {
 					onClick={() => setShowLinks(!showLinks)}
 				/>
 				<div className="links" id={showLinks ? "hidden" : ""}>
-					<Link to={"/"} onClick={() => setShowLinks(!showLinks)}>
-						Home
-					</Link>
 					<SLink
 						activeClass="active"
 						to="about"

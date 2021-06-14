@@ -3,14 +3,8 @@
 :root {
 	--off-white: #fafafa;
 	font-family: "Courier New", Courier, monospace;
+	text-decoration: none;
 }
-
-/* .App {
-	width: 100vw;
-	height: 100vh;
-} */
-
-/* Navbar Test */
 
 .NavbarTest {
 	background-color: var(--off-white);
@@ -22,10 +16,11 @@
 	z-index: 1000;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 	display: flex;
+	cursor: n-resize;
 }
 
 .NavbarTest .leftSide {
-	flex: 50%;
+	flex: 33%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -40,8 +35,38 @@
 	cursor: pointer;
 }
 
+.middle .logo {
+	display: inline-block;
+	padding: 10px;
+	border: 1.5px solid #222;
+	cursor: pointer;
+	color: #333;
+}
+
+.logo:hover {
+	color: #fafafa;
+	background-color: rgb(163, 0, 0);
+	border: solid 1px rgb(163, 0, 0);
+}
+
+.leftSide .iconsContainer {
+	/* border: 1px solid #000; */
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.leftSide .iconsContainer svg {
+	color: #333;
+}
+
+.leftSide .iconsContainer .icon {
+	padding: 3px;
+	font-size: larger;
+}
+
 .NavbarTest .rightSide {
-	flex: 50%;
+	flex: 33%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -93,7 +118,7 @@
 	}
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
 	.NavbarTest .rightSide {
 		display: flex;
 		justify-content: flex-end;
@@ -126,5 +151,16 @@
 
 	.NavbarTest .rightSide #hidden a {
 		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.NavbarTest .leftSide {
+		flex: 28%;
+	}
+
+	.middle .logo {
+		margin-top: 22px;
+		font-size: 12px;
 	}
 }
