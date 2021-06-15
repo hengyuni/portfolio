@@ -18,9 +18,14 @@ function Navbar() {
 		scroll.scrollToTop();
 	};
 
+	const twoFunctions = () => {
+		scrollToTop();
+		setShowLinks(showLinks);
+	};
+
 	// Navbar
 	return (
-		<div className="NavbarTest" id="navbar" onClick={scrollToTop}>
+		<div className="NavbarTest" id="navbar">
 			<div className="leftSide">
 				<div className="iconsContainer">
 					<a
@@ -44,7 +49,7 @@ function Navbar() {
 			</div>
 			<div className="middle">
 				<Link to={"/"}>
-					<h3 className="logo" onClick={scrollToTop}>
+					<h3 className="logo" onClick={twoFunctions}>
 						Hengyu Ni
 					</h3>
 				</Link>
@@ -88,7 +93,7 @@ function Navbar() {
 					<Link to={"/art"} onClick={() => setShowLinks(!showLinks)}>
 						Art
 					</Link>
-					<a href="./CodingResume.pdf" target="_blank">
+					<a href="./Resume2.pdf" target="_blank">
 						Resume
 					</a>
 				</div>
