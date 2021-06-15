@@ -1,6 +1,7 @@
 .wholeContainer {
 	display: flex;
 	flex-direction: column;
+	margin-top: 2rem;
 }
 
 .wholeContainer:after {
@@ -27,22 +28,24 @@
 
 .headerImg {
 	color: #fff;
-	height: 100%;
-	max-height: 500px;
+	/* height: 100%;
+	max-height: 500px; */
 	width: 100%;
-	max-width: 400px;
+	max-width: 600px;
+	min-width: 300px;
 	border: 8px solid rgb(241, 241, 241);
 	/* padding: 5px; */
 	margin: 20px;
-	/* margin-top: 30px; */
+	margin-top: 20px;
 	box-shadow: 18px 16px 15px #b6b6b66b;
 }
 
 .bodyContainer {
 	width: 100%;
-	max-width: 400px;
-	padding: 20px;
-	margin: 30px;
+	max-width: 600px;
+	min-width: 300px;
+	padding: 1rem;
+	margin: 1rem;
 	margin-top: 10px;
 	color: #333;
 	background-color: #fafafa;
@@ -72,5 +75,14 @@
 	.line {
 		margin-top: 30px;
 		margin-bottom: 30px;
+	}
+	.headerImg {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.bodyContainer {
+		width: 100%;
+		max-width: 200px;
 	}
 }

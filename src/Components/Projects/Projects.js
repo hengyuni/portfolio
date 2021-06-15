@@ -123,7 +123,8 @@ function Projects() {
 						</a>
 					</p>
 					<p className={projectsStyle.body}>
-						<b>Description: </b>Simple pokedex from an API.
+						<b>Description: </b>Pokedex fetch from an from pokeAPI. A
+						minimalistic pokedex.
 					</p>
 					<p className={projectsStyle.body}>
 						<b>Tools Used: </b>

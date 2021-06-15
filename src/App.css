@@ -86,6 +86,7 @@
 
 .NavbarTest .rightSide #hidden {
 	display: flex;
+	transition: 0.4s;
 }
 
 .NavbarTest .rightSide .links a {
@@ -94,6 +95,7 @@
 	font-size: 15px;
 	margin-left: 20px;
 	cursor: pointer;
+	transition: 0.4s;
 }
 
 .section {
@@ -118,7 +120,7 @@
 	}
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
 	.NavbarTest .rightSide {
 		display: flex;
 		justify-content: flex-end;
@@ -146,7 +148,7 @@
 		max-height: 250px;
 		width: 100%;
 		background-color: var(--off-white);
-		box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.15);
 	}
 
 	.NavbarTest .rightSide #hidden a {
