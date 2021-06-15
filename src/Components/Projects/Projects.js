@@ -63,6 +63,7 @@ function Projects() {
 					</p>
 				</div>
 			</div>
+			<hr />
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Travlr</h3>
 				<img
@@ -104,6 +105,7 @@ function Projects() {
 					</p>
 				</div>
 			</div>
+			<hr />
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Pokedex</h3>
 				<img
@@ -134,38 +136,39 @@ function Projects() {
 					</p>
 				</div>
 			</div>
-			<hr className={projectsStyle.line} />
+			<hr />
 
 			<div className={projectsStyle.projectContainer}>
-				<div className={projectsStyle.projectContainer}>
-					<h3 className={projectsStyle.title}>Giphy Searcher</h3>
-					<img
-						src="https://i.imgur.com/zMn1zoL.png"
-						alt="giphy searcher"
-						className={projectsStyle.headerImg}
-						width="500px"
-					/>
-					<div className={projectsStyle.bodyContainer}>
-						<p className={projectsStyle.body}>
-							<b>Link: </b>
-							<a
-								className={projectsStyle.link}
-								href="https://codesandbox.io/s/giphy-searcher-xi0bn"
-							>
-								Code Sandbox
-							</a>
-						</p>
-						<p className={projectsStyle.body}>
-							<b>Description: </b>A giphy fetch using API request and react
-						</p>
-						<p className={projectsStyle.body}>
-							<b>Tools Used: </b>
-							<li className={projectsStyle.li}>React</li>
-							<li className={projectsStyle.li}>Javascript</li>
-							<li className={projectsStyle.li}>CSS</li>
-						</p>
-					</div>
+				<h3 className={projectsStyle.title}>Giphy Searcher</h3>
+				<img
+					src="https://i.imgur.com/zMn1zoL.png"
+					alt="giphy searcher"
+					className={projectsStyle.headerImg}
+					width="500px"
+				/>
+				<div className={projectsStyle.bodyContainer}>
+					<p className={projectsStyle.body}>
+						<b>Link: </b>
+						<a
+							className={projectsStyle.link}
+							href="https://codesandbox.io/s/giphy-searcher-xi0bn"
+						>
+							Code Sandbox
+						</a>
+					</p>
+					<p className={projectsStyle.body}>
+						<b>Description: </b>A giphy fetch using API request and react
+					</p>
+					<p className={projectsStyle.body}>
+						<b>Tools Used: </b>
+						<li className={projectsStyle.li}>React</li>
+						<li className={projectsStyle.li}>Javascript</li>
+						<li className={projectsStyle.li}>CSS</li>
+					</p>
 				</div>
+			</div>
+			<hr />
+			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Bookmark'd</h3>
 				<img
 					src="https://i.imgur.com/70fDEnL.png"
@@ -173,6 +176,7 @@ function Projects() {
 					className={projectsStyle.headerImg}
 					width="500px"
 				/>
+
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
