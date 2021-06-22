@@ -79,7 +79,23 @@ function Projects() {
 							className={projectsStyle.link}
 							href="https://travlr-group.netlify.app/"
 						>
-							Travlr
+							Live Site/
+						</a>
+						<a
+							className={projectsStyle.link}
+							href="https://github.com/buggydev1/Hip_yelp_Back"
+							target="_blank"
+							rel="noreferrer"
+						>
+							GitHub API/
+						</a>
+						<a
+							className={projectsStyle.link}
+							href="https://github.com/buggydev1/Hip_yelp_front"
+							target="_blank"
+							rel="noreferrer"
+						>
+							GitHub Client
 						</a>
 					</p>
 					<p className={projectsStyle.body}>
@@ -121,11 +137,19 @@ function Projects() {
 							className={projectsStyle.link}
 							href="https://hengyuni.github.io/project-2/"
 						>
-							Pokedex
+							Live Site/
+						</a>
+						<a
+							className={projectsStyle.link}
+							href="https://github.com/hengyuni/project-2"
+							target="_blank"
+							rel="noreferrer"
+						>
+							GitHub
 						</a>
 					</p>
 					<p className={projectsStyle.body}>
-						<b>Description: </b>Pokedex fetch from an from pokeAPI. A
+						<b>Description: </b>Pokedex fetch from a pokeAPI. A
 						minimalistic pokedex.
 					</p>
 					<p className={projectsStyle.body}>
@@ -164,38 +188,6 @@ function Projects() {
 						<li className={projectsStyle.li}>React</li>
 						<li className={projectsStyle.li}>Javascript</li>
 						<li className={projectsStyle.li}>CSS</li>
-					</p>
-				</div>
-			</div>
-			<hr />
-			<div className={projectsStyle.projectContainer}>
-				<h3 className={projectsStyle.title}>Bookmark'd</h3>
-				<img
-					src="https://i.imgur.com/70fDEnL.png"
-					alt="project-2"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
-
-				<div className={projectsStyle.bodyContainer}>
-					<p className={projectsStyle.body}>
-						<b>Link: </b>
-						<a
-							className={projectsStyle.link}
-							href="https://bookmarksproject.netlify.app"
-						>
-							Bookmark'd
-						</a>
-					</p>
-					<p className={projectsStyle.body}>
-						<b>Description: </b>Bookmarks challenge using crud functionality
-					</p>
-					<p className={projectsStyle.body}>
-						<b>Tools Used: </b>
-						<li className={projectsStyle.li}>MongoDB</li>
-						<li className={projectsStyle.li}>Express</li>
-						<li className={projectsStyle.li}>React</li>
-						<li className={projectsStyle.li}>NodeJS</li>
 					</p>
 				</div>
 			</div>
