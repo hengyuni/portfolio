@@ -7,7 +7,7 @@ function About() {
 
 	return (
 		<div className={aboutStyle.aboutContainer}>
-			<img src={imgTwo} alt="headshot" className={aboutStyle.headerImg} />
+			<img src={imgOne} alt="headshot" className={aboutStyle.headerImg} />
 			<p className={aboutStyle.body}>
 				MERN-stack developer with background in traditional sign painting and
 				television production. A lover of music, reading, skateboarding, and the
