@@ -5,6 +5,44 @@ function Projects() {
 	return (
 		<div className={projectsStyle.wholeContainer}>
 			<div className={projectsStyle.projectContainer}>
+				<h3 className={projectsStyle.title}>Dad Joke Generator</h3>
+				<img
+					src="https://i.imgur.com/le5dR27.png"
+					alt="Dad Joke Gen"
+					className={projectsStyle.headerImg}
+					width="500px"
+				/>
+				<div className={projectsStyle.bodyContainer}>
+					<p className={projectsStyle.body}>
+						<b>Link: </b>
+						<a
+							className={projectsStyle.link}
+							href="https://poppajokes.netlify.app/"
+						>
+							Live Site/
+						</a>
+						<a
+							className={projectsStyle.link}
+							href="https://github.com/hengyuni/dad-joke-generator"
+							target="_blank"
+							rel="noreferrer"
+						>
+							GitHub
+						</a>
+					</p>
+					<p className={projectsStyle.body}>
+						<b>Description: </b>A Generator for dads and future dads
+					</p>
+					<p className={projectsStyle.body}>
+						<b>Tools Used: </b>
+						<li className={projectsStyle.li}>React</li>
+						<li className={projectsStyle.li}>Javascript</li>
+						<li className={projectsStyle.li}>CSS</li>
+					</p>
+				</div>
+			</div>
+			<hr />
+			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>.pngCat</h3>
 				<img
 					src="https://i.imgur.com/FYyMkxM.png"
@@ -149,8 +187,8 @@ function Projects() {
 						</a>
 					</p>
 					<p className={projectsStyle.body}>
-						<b>Description: </b>Pokedex fetch from a pokeAPI. A
-						minimalistic pokedex.
+						<b>Description: </b>Pokedex fetch from a pokeAPI. A minimalistic
+						pokedex.
 					</p>
 					<p className={projectsStyle.body}>
 						<b>Tools Used: </b>
