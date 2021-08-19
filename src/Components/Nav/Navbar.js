@@ -93,7 +93,7 @@ function Navbar() {
 					<Link to={"/art"} onClick={() => setShowLinks(!showLinks)}>
 						Art
 					</Link>
-					<a href="./Resume3.pdf" target="_blank">
+					<a href="./FDresume.pdf" target="_blank">
 						Resume
 					</a>
 				</div>
