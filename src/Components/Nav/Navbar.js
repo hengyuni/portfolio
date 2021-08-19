@@ -62,16 +62,6 @@ function Navbar() {
 				<div className="links" id={showLinks ? "hidden" : ""}>
 					<SLink
 						activeClass="active"
-						to="about"
-						spy={true}
-						smooth={true}
-						offset={-70}
-						duration={500}
-					>
-						About
-					</SLink>
-					<SLink
-						activeClass="active"
 						to="projects"
 						spy={true}
 						smooth={true}
@@ -79,6 +69,16 @@ function Navbar() {
 						duration={500}
 					>
 						Projects
+					</SLink>
+					<SLink
+						activeClass="active"
+						to="about"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+					>
+						About
 					</SLink>
 					<SLink
 						activeClass="active"

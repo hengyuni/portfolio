@@ -16,17 +16,17 @@ function App() {
 				<Route path="/art" component={Art} />
 				<Route exact path="/">
 					<Section
+						title="Projects"
+						subtitle={<Projects />}
+						dark={true}
+						id="projects"
+					/>
+					<Section
 						className="about"
 						title="About"
 						subtitle={<About />}
-						dark={true}
-						id="about"
-					/>
-					<Section
-						title="Projects"
-						subtitle={<Projects />}
 						dark={false}
-						id="projects"
+						id="about"
 					/>
 					<Section
 						title="Contact"

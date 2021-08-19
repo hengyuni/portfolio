@@ -9,7 +9,7 @@ function About() {
 		<div className={aboutStyle.aboutContainer}>
 			<img src={imgOne} alt="headshot" className={aboutStyle.headerImg} />
 			<p className={aboutStyle.body}>
-				MERN-stack developer with background in traditional sign painting and
+				Frontend developer with a background in traditional sign painting and
 				television production. A lover of music, reading, skateboarding, and the
 				outdoors.
 			</p>

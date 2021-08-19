@@ -16,6 +16,8 @@
 	z-index: 1000;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
 }
 
 .NavbarTest .leftSide {
@@ -41,6 +43,7 @@
 	border: 1.5px solid #222;
 	cursor: pointer;
 	color: #333;
+	margin-right: 25px;
 }
 
 .logo:hover {
@@ -118,6 +121,10 @@
 	.NavbarTest .rightSide .links a {
 		font-size: 15px;
 	}
+
+	.middle {
+		font-size: 0.75em;
+	}
 }
 
 @media only screen and (max-width: 950px) {
@@ -137,7 +144,7 @@
 	.NavbarTest .rightSide #hidden {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: space-evenly;
 
 		/* position: absolute; */
@@ -158,7 +165,7 @@
 
 @media only screen and (max-width: 400px) {
 	.NavbarTest .leftSide {
-		flex: 28%;
+		flex: 33%;
 	}
 
 	.middle .logo {

@@ -19,7 +19,8 @@
 	border: 5px solid #fafafa;
 	margin: 1rem;
 	margin-top: -3rem;
-	box-shadow: 18px 16px 15px #222222;
+	/* box-shadow: 18px 16px 15px #222222; */
+	box-shadow: 18px 16px 15px #b6b6b66b;
 }
 
 .body {
@@ -33,7 +34,8 @@
 	margin-bottom: -3rem;
 	color: #333;
 	background-color: #fafafa;
-	box-shadow: 18px 16px 15px #222222;
+	/* box-shadow: 18px 16px 15px #222222; */
+	box-shadow: 18px 16px 15px #b6b6b66b;
 }
 
 @media only screen and (max-width: 400px) {

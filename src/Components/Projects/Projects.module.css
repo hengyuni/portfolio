@@ -37,7 +37,8 @@
 	/* padding: 5px; */
 	margin: 20px;
 	margin-top: 20px;
-	box-shadow: 18px 16px 15px #b6b6b66b;
+	/* box-shadow: 18px 16px 15px #b6b6b66b; */
+	box-shadow: 18px 16px 15px #222222;
 }
 
 .bodyContainer {
@@ -50,7 +51,8 @@
 	color: #333;
 	background-color: #fafafa;
 	/* border: 1px solid white; */
-	box-shadow: 18px 16px 15px #b6b6b66b;
+	/* box-shadow: 18px 16px 15px #b6b6b66b; */
+	box-shadow: 18px 16px 15px #222222;
 }
 
 .line {
@@ -74,7 +76,7 @@
 hr {
 	/* display: block; */
 	/* border: 0; */
-	border-top: 1px solid rgb(177, 177, 177);
+	border-top: 1px solid rgb(112, 112, 112);
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 2rem;
