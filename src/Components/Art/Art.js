@@ -49,7 +49,6 @@ function Art() {
 	const getImg = (imgSrc) => {
 		setTempSrc(imgSrc);
 		setModal(true);
-		// console.log(imgSrc);
 	};
 
 	return (
