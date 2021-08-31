@@ -100,6 +100,9 @@ hr {
 	.headerImg {
 		width: 100%;
 		max-width: 200px;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	.bodyContainer {
