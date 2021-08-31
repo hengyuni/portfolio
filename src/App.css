@@ -169,7 +169,8 @@
 	}
 
 	.middle .logo {
-		margin-top: 22px;
-		font-size: 12px;
+		margin-top: 15px;
+		/* margin-right: 0px; */
+		font-size: 10px;
 	}
 }
