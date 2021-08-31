@@ -6,18 +6,27 @@ function Projects() {
 		<div className={projectsStyle.wholeContainer}>
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Dad Joke Generator</h3>
-				<img
-					src="https://i.imgur.com/le5dR27.png"
-					alt="Dad Joke Gen"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
+				<a
+					className={projectsStyle.link}
+					href="https://poppajokes.netlify.app/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src="https://i.imgur.com/le5dR27.png"
+						alt="Dad Joke Gen"
+						className={projectsStyle.headerImg}
+						width="500px"
+					/>
+				</a>
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
 						<a
 							className={projectsStyle.link}
 							href="https://poppajokes.netlify.app/"
+							target="_blank"
+							rel="noreferrer"
 						>
 							Live Site/
 						</a>
@@ -44,12 +53,13 @@ function Projects() {
 			<hr />
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>.pngCat</h3>
-				<img
-					src="https://i.imgur.com/FYyMkxM.png"
-					alt="project-2"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
+				<a href="https://pngcat.netlify.app/" target="_blank">
+					<img
+						src="https://i.imgur.com/FYyMkxM.png"
+						alt="pngcat"
+						className={projectsStyle.headerImg}
+					/>
+				</a>
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
@@ -104,18 +114,26 @@ function Projects() {
 			<hr />
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Travlr</h3>
-				<img
-					src="https://github.com/hengyuni/Hip_yelp_front/raw/main/src/Images/HomePageScreenShot.png"
-					alt="project-2"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
+				<a
+					href="https://travlr-group.netlify.app/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src="https://github.com/hengyuni/Hip_yelp_front/raw/main/src/Images/HomePageScreenShot.png"
+						alt="project-2"
+						className={projectsStyle.headerImg}
+						width="500px"
+					/>
+				</a>
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
 						<a
 							className={projectsStyle.link}
 							href="https://travlr-group.netlify.app/"
+							target="_blank"
+							rel="noreferrer"
 						>
 							Live Site/
 						</a>
@@ -162,18 +180,25 @@ function Projects() {
 			<hr />
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Pokedex</h3>
-				<img
-					src="https://github.com/hengyuni/project-2/raw/master/Assets/mainScreenShot.png"
-					alt="project-1"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
+				<a
+					href="https://hengyuni.github.io/project-2/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src="https://github.com/hengyuni/project-2/raw/master/Assets/mainScreenShot.png"
+						alt="project-1"
+						className={projectsStyle.headerImg}
+					/>
+				</a>
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
 						<a
 							className={projectsStyle.link}
 							href="https://hengyuni.github.io/project-2/"
+							target="_blank"
+							rel="noreferrer"
 						>
 							Live Site/
 						</a>
@@ -199,21 +224,27 @@ function Projects() {
 				</div>
 			</div>
 			<hr />
-
 			<div className={projectsStyle.projectContainer}>
 				<h3 className={projectsStyle.title}>Giphy Searcher</h3>
-				<img
-					src="https://i.imgur.com/zMn1zoL.png"
-					alt="giphy searcher"
-					className={projectsStyle.headerImg}
-					width="500px"
-				/>
+				<a
+					href="https://codesandbox.io/s/giphy-searcher-xi0bn"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src="https://i.imgur.com/zMn1zoL.png"
+						alt="giphy searcher"
+						className={projectsStyle.headerImg}
+					/>
+				</a>
 				<div className={projectsStyle.bodyContainer}>
 					<p className={projectsStyle.body}>
 						<b>Link: </b>
 						<a
 							className={projectsStyle.link}
 							href="https://codesandbox.io/s/giphy-searcher-xi0bn"
+							target="_blank"
+							rel="noreferrer"
 						>
 							Code Sandbox
 						</a>
