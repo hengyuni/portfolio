@@ -9,7 +9,7 @@ function Art() {
 	const [pic, setPic] = useState({});
 
 	const getPics = async () => {
-		const auth = `Basic ${process.env.REACT_APP_SLATE_KEY}`;
+		const auth = process.env.REACT_APP_SLATE_KEY;
 
 		const response = await fetch("https://slate.host/api/v2/get", {
 			method: "GET",
@@ -60,26 +60,28 @@ function Art() {
 			>
 				<img src={tempSrc} alt="" onClick={() => setModal(false)} />
 			</div>
-			<div className="grid">
-				{pic.user === undefined
-					? null
-					: pic.user.library.map((image, id) => {
-							let imgSrc = `https://slate.textile.io/ipfs/${image.cid}`;
-							return (
-								<div className="items" onClick={() => getImg(imgSrc)}>
-									<LazyLoadImage
-										effect="blur"
-										delayTime="1000ms"
-										height="100%"
-										width="100%"
-										className="item"
-										alt={image.filename}
-										src={imgSrc}
-										onClick={() => getImg(imgSrc)}
-									/>
-								</div>
-							);
-					  })}
+			<div className="gridContainer">
+				<div className="grid">
+					{pic.user === undefined
+						? null
+						: pic.collections[0].objects.map((image, id) => {
+								let imgSrc = `https://slate.textile.io/ipfs/${image.cid}`;
+								return (
+									<div className="items" onClick={() => getImg(imgSrc)}>
+										<LazyLoadImage
+											effect="blur"
+											delayTime="1000ms"
+											height="100%"
+											width="100%"
+											className="item"
+											alt={image.filename}
+											src={imgSrc}
+											onClick={() => getImg(imgSrc)}
+										/>
+									</div>
+								);
+						  })}
+				</div>
 			</div>
 		</>
 	);

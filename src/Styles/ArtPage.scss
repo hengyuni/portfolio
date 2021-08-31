@@ -1,11 +1,16 @@
+.gridContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .grid {
 	position: relative;
-	border: 4vw solid #fff;
+	border: 5vw solid #fff;
 	box-sizing: border-box;
 	display: grid;
 	grid-auto-flow: row;
-	grid-gap: 4px;
-	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 3px;
+	grid-template-columns: repeat(3, 0.5fr);
 }
 
 .items {
