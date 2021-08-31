@@ -92,6 +92,11 @@ hr {
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
+
+	.projectContainer > a {
+		display: flex;
+		align-items: center;
+	}
 	.headerImg {
 		width: 100%;
 		max-width: 200px;
